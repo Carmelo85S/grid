@@ -3,13 +3,14 @@ body{
     background-color: rgb(80, 118, 212);
 }
 
-.grid__container{
+.grid__container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    grid-gap: 24px;
+    gap: 1rem;
     height: 100vh;
-    box-shadow: 2px 2px 2px black;
+    margin: 1rem;
+    margin-bottom: 0;
 }
 
 .green {
@@ -73,6 +74,7 @@ body{
 .grid-footer{
     grid-area: 11 / 1 / 15 / 7;
     background-color: bisque;
+    margin: 0rem;
 }
 
 h1{
